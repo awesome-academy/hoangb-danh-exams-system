@@ -3,10 +3,29 @@ en:
   empty_subject: "No Subject"
   single_choice: "Single Choice"
   multi_choice: "Multiple Choice"
+  admin:
+    home:
+      index:
+        supervisor_page: "Supervisor Page"
+    layouts:
+      navbar:
+        profile_menu: "Profile"
+        setting_menu: "Settings"
+        logout_menu: "Logout"
+        account: "Admin account"
+      sidebar:
+        header: "Exam System Administrator"
+        logged_in_as: "Logged in as:"
+        dashboard_menu: "Dashboard"
+        subject_menu: "Subjects"
+        question_menu: "Questions"
+        quiz_menu: "Quizzes"
+        exam_menu: "Exams"
+        user_supervisor: "Users/Supervisors"
   static_pages:
     index:
       welcome: "Welcome to Exams System"
-      content: "In this website you can take the exmam to testing your skill"
+      content: "In this website you can take the exam to testing your skill"
       login_button: "Login"
       title: "Home"
   layouts:

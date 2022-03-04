@@ -22,8 +22,9 @@ class QuestionsController < ApplicationController
   private
 
   def question_params
-    params.require(:question).permit :content, :question_type, :subject_id,
-      answers_attributes: [:id, :content, :is_answer, :_destroy]
+    params.require(:question).permit :content, :question_type,
+                                     :subject_id, answers_attributes: [:id,
+                                     :content, :is_answer, :_destroy]
   end
 
   def load_subject
